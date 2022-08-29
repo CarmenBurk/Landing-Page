@@ -1,12 +1,13 @@
 body {
 display: flex;
-flex-flow: column; 
+flex-flow: column;
+
 
 margin: 0 auto 0 
 }
 body > * {
     display: flex;
-    
+    justify-content: center;
 }
 
 
@@ -26,7 +27,7 @@ background-color: #1f2937;
     font-weight: 900;
 }
 .bboxwtext>.subtext {
-color: #E5E7Eb;
+color: #717275;
 font-size: 18px; 
 font-weight: 900;
 }
@@ -49,7 +50,7 @@ font-weight: 900;
 .info-header-text {
     font-size: 36px;
     font-weight: 900;
-    color: #1f2937;
+    color: #e5e7eb;
 }
 .quote::before {
     content: open-quote;
@@ -84,5 +85,16 @@ button {
 
 }
 .info {
+flex-direction: column; 
+justify-content: center;
+   
+}
+.imagesection {
+display: flex;
+}
+.boxgroup {
     
+}
+.subtext {
+    color: #E5E7Eb;
 }
