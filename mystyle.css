@@ -7,7 +7,8 @@ margin: 0 auto 0
 }
 body > * {
     display: flex;
-    justify-content: center;
+  
+    
 }
 
 
@@ -105,7 +106,7 @@ justify-content: center;
     text-align: center;
     
 }
-.title-container {
+.container-title {
     text-align: center;
 }
 .bboxwtext {
@@ -132,9 +133,4 @@ div.hero.darkbackground > div.container {
 div.hero.darkbackground > div.container-image {
     flex:1;
 }
-div.hero {
- justify-content: center; 
-}
-.container-image {
-    flex: 1;
-}
+ 
