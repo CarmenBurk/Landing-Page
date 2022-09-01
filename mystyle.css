@@ -15,7 +15,8 @@ img {
     width: 300px;
 }
 .darkbackground {
-background-color: #1f2937;    
+background-color: #1f2937;
+  
 }
 .logo {
     font-size: 24px;
@@ -33,6 +34,7 @@ font-weight: 900;
 }
 
 .testimonialbackground {
+    padding: 100px 200px 100px;
     background-color: #efe7eb;
 }
 
@@ -65,16 +67,18 @@ background-color: #3882f6;
 button {
     background-color: #3882f6;
     color: #F9FAF8;
-    padding: 8px 20px 8px;
+    margin: 8px 20px 8px;
     
     border-radius: 5px;
 }
 .header {
     display: flex;
+    justify-content: space-around;
 }
 .nav-links > ul {
     display: flex;
     list-style: none;
+    justify-content: space-around;
 }
 .borderbox {
     width: 200px;
@@ -82,19 +86,55 @@ button {
     border-style: solid;
     justify-self: center;
     border-width: 1px;
+    
 
 }
 .info {
 flex-direction: column; 
 justify-content: center;
+padding: 0px 200px 100px;
    
 }
 .imagesection {
 display: flex;
+justify-content: center;
 }
-.boxgroup {
-    
-}
+
 .subtext {
     color: #E5E7Eb;
+    text-align: center;
+    
+}
+.title-container {
+    text-align: center;
+}
+.bboxwtext {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px 0px;
+    gap: 10px;
+}
+ul {
+    gap: 15px;
+}
+
+div.hero.darkbackground > div.container > p.subtext {
+    margin: 50px 100px 50px;
+}
+.hero {
+    justify-content: space-around;
+}
+div.hero.darkbackground > div.container {
+    flex:1;
+}
+div.hero.darkbackground > div.container-image {
+    flex:1;
+}
+div.hero {
+ justify-content: center; 
+}
+.container-image {
+    flex: 1;
 }
