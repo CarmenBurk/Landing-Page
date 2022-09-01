@@ -7,14 +7,12 @@ margin: 0 auto 0
 }
 body > * {
     display: flex;
-  
-    
+    justify-content: center;
 }
 
 
-img {
-    width: 300px;
-}
+
+
 .darkbackground {
 background-color: #1f2937;
   
@@ -93,7 +91,7 @@ button {
 .info {
 flex-direction: column; 
 justify-content: center;
-padding: 0px 200px 100px;
+padding-bottom: 100px;
    
 }
 .imagesection {
@@ -111,7 +109,7 @@ justify-content: center;
 }
 .bboxwtext {
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0px 100px 0px;
@@ -125,12 +123,17 @@ div.hero.darkbackground > div.container > p.subtext {
     margin: 50px 100px 50px;
 }
 .hero {
-    justify-content: space-around;
+    
+    
 }
 div.hero.darkbackground > div.container {
-    flex:1;
+ display: flex;
+ flex-flow: column wrap;
+ justify-content: center;
+ text-align: center;
+
+    
 }
-div.hero.darkbackground > div.container-image {
-    flex:1;
+img {
+ width: 500px;   
 }
- 
