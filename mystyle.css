@@ -3,7 +3,7 @@ display: flex;
 flex-flow: column;
 
 
-margin: 0 auto 0 
+
 }
 body > * {
     display: flex;
@@ -20,6 +20,7 @@ background-color: #1f2937;
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    margin-left: auto;
 }
 .main {
     color: #F9FAF8;
@@ -71,14 +72,20 @@ button {
     
     border-radius: 5px;
 }
-.header {
+.headercontainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 200px;
 }
 .nav-links > ul {
     display: flex;
     list-style: none;
     justify-content: space-around;
+    
+}
+.nav-links {
+    margin-left: auto;
+    margin-right: auto;
 }
 .borderbox {
     width: 200px;
@@ -114,18 +121,18 @@ justify-content: center;
     justify-content: center;
     align-items: center;
     padding: 0px 100px 0px;
-    gap: 10px;
+    gap: 5px;
 }
 ul {
     gap: 15px;
 }
 
-div.hero.darkbackground > div.container > p.subtext {
-   margin-right: 25px;
+ddiv.hero.darkbackground > div.container > p.subtext {
+   margin-right: 250px;
 }
 .hero {
-    display: flex;
-    
+  display: flex;
+  gap: 170px;  
 }
 
 
