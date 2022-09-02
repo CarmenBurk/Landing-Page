@@ -124,16 +124,14 @@ div.hero.darkbackground > div.container > p.subtext {
    margin-right: 25px;
 }
 .hero {
-    
+    display: flex;
     
 }
-div.hero.darkbackground > div.container {
-text-align: left;
-justify-items: flex-start;
+
 
 
     
-}
+
 img {
  width: 500px;   
 }
