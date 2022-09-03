@@ -20,11 +20,7 @@ body > * {
 background-color: #1f2937;
   
 }
-.logo {
-    font-size: 24px;
-    color: #F9FAF8;
-    margin-left: auto;
-}
+
 .main {
     color: #F9FAF8;
     font-size: 48px;
@@ -96,8 +92,8 @@ button {
 }
 .headercontainer {
     display: flex;
-    justify-content: space-between;
-    gap: 200px;
+    justify-content: center;
+    gap: 40rem;
     
 }
 .nav-links > ul {
@@ -106,9 +102,12 @@ button {
     justify-content: space-around;
     
 }
-.nav-links {
-    margin-left: auto;
-    margin-right: auto;
+
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+  
 }
 .borderbox {
     width: 200px;
@@ -125,6 +124,7 @@ justify-content: center;
 padding-bottom: 100px;
    
 }
+
 .imagesection {
 display: flex;
 justify-content: center;
