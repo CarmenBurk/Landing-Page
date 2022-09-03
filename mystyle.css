@@ -1,6 +1,7 @@
 body {
 display: flex;
 flex-flow: column;
+margin: 0;
 
 
 
@@ -62,13 +63,26 @@ font-weight: 900;
 }
 .CTA {
 background-color: #3882f6;
+width: 700px;
+display: flex;
+border-radius: 5px;
 
+
+
+}
+.CTA-container {
+display: flex;
+margin-top: 50px;
+margin-bottom: 50px;
+
+   
 }
 button {
     background-color: #3882f6;
     color: #F9FAF8;
     margin: 2px 10px 2px;
     padding: 6px 15px 6px;
+    justify-self: flex-end;
     
     border-radius: 5px;
 }
@@ -76,6 +90,7 @@ button {
     display: flex;
     justify-content: space-between;
     gap: 200px;
+    
 }
 .nav-links > ul {
     display: flex;
@@ -134,7 +149,6 @@ ddiv.hero.darkbackground > div.container > p.subtext {
   display: flex;
   gap: 170px;  
 }
-
 
 
     
